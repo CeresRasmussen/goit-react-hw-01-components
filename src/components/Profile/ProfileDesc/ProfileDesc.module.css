@@ -1,15 +1,13 @@
 .description {
-  margin: 0 auto;
   background: #fff;
   padding: 25px;
   border-radius: 6px;
   text-align: center;
-  width: 320px;
 }
 
 .avatar {
   border-radius: 50%;
-  border: 1px solid rgb(90, 88, 88);
+  border: 1px solid #d9dbe0;
 }
 
 .name {
@@ -20,9 +18,9 @@
 }
 
 .tag {
-  color: #5b5454;
+  color: #a1abb6;
   margin-bottom: 12px;
 }
 .location {
-  color: #5b5454;
+  color: #a1abb6;
 }

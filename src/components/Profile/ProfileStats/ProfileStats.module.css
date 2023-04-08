@@ -1,2 +1,22 @@
 .stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #f2f5f8;
+}
+
+.stats_list {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  border: 1px solid #d9dbe0;
+}
+.stats_title {
+  color: #a1abb6;
+  font-size: 14px;
+}
+.stats_value {
+  font-weight: 700;
 }
