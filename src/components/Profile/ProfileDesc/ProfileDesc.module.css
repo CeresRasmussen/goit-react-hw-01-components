@@ -1,0 +1,28 @@
+.description {
+  margin: 0 auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 6px;
+  text-align: center;
+  width: 320px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid rgb(90, 88, 88);
+}
+
+.name {
+  margin: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tag {
+  color: #5b5454;
+  margin-bottom: 12px;
+}
+.location {
+  color: #5b5454;
+}
