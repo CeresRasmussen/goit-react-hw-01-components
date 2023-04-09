@@ -1,12 +1,18 @@
 @import-normalize; /* bring in normalize.css styles */
-
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
+  padding: 25px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  background-color: #e7ecf2;
 }
 
 code {
@@ -28,4 +34,10 @@ li {
 
 ul {
   list-style: none;
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

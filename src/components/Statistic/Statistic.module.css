@@ -1,0 +1,30 @@
+.statistic {
+  width: 420px;
+  /* padding-bottom: 50px;
+  background-color: #e7ecf2; */
+}
+.title {
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a1abb6;
+  padding: 10px 0;
+}
+.stat_list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.item {
+  text-align: center;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.label {
+  color: #fff;
+}
+.percentage {
+  font-size: 20px;
+  color: #fff;
+}
